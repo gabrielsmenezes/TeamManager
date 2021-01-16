@@ -2,4 +2,10 @@
     <string name="app_name">TeamManager</string>
     <string name="player_inserted_successfully">The player was added successfully</string>
     <string name="player_error_to_insert">Error to insert the player</string>
+    <string name="player_name_hint">Player Name</string>
+    <string name="player_purchase_price_hint">Purchase Price</string>
+    <string name="insert_player_button">Add Player</string>
+    <string name="player_purchase_date_hint">Purchase Date</string>
+    <string name="player_sell_price_hint">Sell Price</string>
+    <string name="player_sell_date_hint">Sell Date</string>
 </resources>
