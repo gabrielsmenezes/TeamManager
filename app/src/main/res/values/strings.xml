@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TeamManager</string>
+    <string name="player_inserted_successfully">The player was added successfully</string>
+    <string name="player_error_to_insert">Error to insert the player</string>
 </resources>
