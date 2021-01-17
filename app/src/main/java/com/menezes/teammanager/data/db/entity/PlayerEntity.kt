@@ -10,7 +10,7 @@ data class PlayerEntity(
     val id: Long = 0,
     val name: String,
     val purchasePrice: Float,
-    val purchaceDate: Date,
+    val purchaceDate: String,
     val sellPrice: Float,
-    val sellDate: Date
+    val sellDate: String
 )

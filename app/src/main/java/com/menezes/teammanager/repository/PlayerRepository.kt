@@ -7,18 +7,18 @@ interface PlayerRepository {
     suspend fun insertPlayer(
         name: String,
         purchasePrice: Float,
-        purchaseDate: Date,
+        purchaseDate: String,
         sellPrice: Float,
-        sellDate: Date
+        sellDate: String
     ): Long
 
     suspend fun updatePlayer(
         id: Long,
         name: String,
         purchasePrice: Float,
-        purchaseDate: Date,
+        purchaseDate: String,
         sellPrice: Float,
-        sellDate: Date
+        sellDate: String
     )
 
     suspend fun deletePlayer(id: Long)

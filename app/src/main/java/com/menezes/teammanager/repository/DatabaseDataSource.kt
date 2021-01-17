@@ -8,9 +8,9 @@ class DatabaseDataSource(private val playerDAO: PlayerDAO) : PlayerRepository {
     override suspend fun insertPlayer(
         name: String,
         purchasePrice: Float,
-        purchaseDate: Date,
+        purchaseDate: String,
         sellPrice: Float,
-        sellDate: Date
+        sellDate: String
     ): Long {
         val player = PlayerEntity(
             name = name,
@@ -26,9 +26,9 @@ class DatabaseDataSource(private val playerDAO: PlayerDAO) : PlayerRepository {
         id: Long,
         name: String,
         purchasePrice: Float,
-        purchaseDate: Date,
+        purchaseDate: String,
         sellPrice: Float,
-        sellDate: Date
+        sellDate: String
     ) {
 
         val player = PlayerEntity(
